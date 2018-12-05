@@ -12,4 +12,7 @@ node('linux') {
 	stage('Deploy') {    
 		sh 'aws s3 cp /workspace/java-pipeline/dist/rectangle-*.jar s3://seis665-public/'
 	}
+	stage('Report') {    
+		sh 'aws cloudformation describe-stack-resources --region us-east-1 --stack-name jenkins'
+	}	
 }
