@@ -10,7 +10,6 @@ node('linux') {
 		sh 'ant -f build.xml -v'   
 	}   
 	stage('Deploy') {    
-		sh 'pwd'
-		sh 'ls -l ./bin'   
+		sh 'aws s3 cp /workspace/java-pipeline/dist/rectangle-*.jar s3://seis665-public/'
 	}
 }
