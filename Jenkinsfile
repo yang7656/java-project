@@ -10,6 +10,7 @@ node('linux') {
 		sh 'ant -f build.xml -v'   
 	}   
 	stage('Deploy') {    
-		sh 'ls -l'   
+		sh 'pwd'
+		sh 'ls -l ./bin'   
 	}
 }
