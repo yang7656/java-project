@@ -1,3 +1,2 @@
 # java-project
-update to see Jenkins builds automatically.
-test
+update to see Jenkins builds automatically
