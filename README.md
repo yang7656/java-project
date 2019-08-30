@@ -1,2 +1,2 @@
 # java-project
-update to see Jenkins builds automatically. Test
+update to see AWS CodeBuild builds automatically. Test
