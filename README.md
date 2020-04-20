@@ -1,2 +1,2 @@
 # java-project
-update to see AWS CodeBuild builds automatically.
+update to see AWS CodeBuild builds automatically
